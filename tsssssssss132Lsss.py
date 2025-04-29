@@ -17,7 +17,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Ask for age at start
 if "age_checked" not in st.session_state:
-    st.title("Welcome to Rock Paper Scissors Learner! 🎉")
+    st.title("Welcome to Mohammad Obaid's Rock Paper Scissor Tutorial in Under 5 Minutes! ( Beginners Variation )  🎉")
     age = st.number_input("How old are you?", min_value=1, max_value=120, step=1)
     if st.button("Start!"):
         if age < 12:
